@@ -10,12 +10,12 @@ function Header() {
       <ul>
         <li>
           <Link to={'/login'}>
-            <FaSignInAlt>Login</FaSignInAlt>
+            <FaSignInAlt /> Login
           </Link>
         </li>
         <li>
           <Link to={'/register'}>
-            <FaUser>Register</FaUser>
+            <FaUser /> Register
           </Link>
         </li>
       </ul>
